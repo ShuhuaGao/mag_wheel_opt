@@ -1,7 +1,7 @@
 # Surrogate-Assisted Optimal Design of Halbach Magnetic Wheels for Tubular Steel Structure Inspection Robots
 
 This repository implements a surrogate-based optimization workflow for a magnetic-adhesion climbing robot wheel.  
-High-fidelity samples are generated with COMSOL, a deep learning surrogate (FT-Transformer) is trained on these samples, and a hybrid GA–DE optimizer searches for designs that maximize the adhesion-to-weight ratio \(F_y / G\) under safety constraints. Final candidate designs are then validated again in COMSOL.
+High-fidelity samples are generated with COMSOL, a deep learning surrogate (FT-Transformer) is trained on these samples, and a hybrid GA–DE optimizer searches for designs that maximize the adhesion-to-weight ratio $F_{\text{m}} / G_0$ under safety constraints. Final candidate designs are then validated again in COMSOL.
 
 ---
 
